@@ -36,6 +36,8 @@ font-family: 'Poppins', sans-serif; */
 
 .banner_part {
     padding: 0 10%;
+    height: 400px;
+    background-color: red;
 }
 
 .banner_text {
@@ -75,7 +77,7 @@ font-family: 'Poppins', sans-serif; */
     padding: 0 0 25px;
 }
 
-.banner_text a {
+.common_btn {
     text-decoration: none;
     font-size: 16px;
     color: #fff;
@@ -92,10 +94,47 @@ font-family: 'Poppins', sans-serif; */
 /* ====================== banner part end =============================== */
 
 
-/* ====================== menu part start =============================== */
+/* ====================== about part start =============================== */
+
+#about_part {
+    margin: 0 10%;
+    height: 760px;
+}
+
+#about_part .about_img {
+    width: 40%;
+    float: left;
+}
+
+#about_part .about_text {
+    width: 40%;
+    float: left;
+    padding-top: 10%;
+    padding-left: 18%;
+}
+
+#about_part .about_img img {
+    width: 100%;
+}
+
+#about_part .about_text h2 {
+    font-size: 32px;
+    color: #3B3E5C;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#about_part .about_text p {
+    font-size: 14px;
+    color: #3B3E5C;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding: 10px 0 25px;
+}
 
 
-/* ====================== menu part end =============================== */
+/* ====================== about part end =============================== */
 
 
 /* ====================== menu part start =============================== */
