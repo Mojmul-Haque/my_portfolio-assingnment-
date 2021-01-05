@@ -14,16 +14,82 @@ font-family: 'Poppins', sans-serif; */
 
 .menu_part {
     float: right;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+
+.menu_part a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0 8px;
+    text-transform: uppercase;
 }
 
 
 /* ====================== menu part end =============================== */
 
 
-/* ====================== menu part start =============================== */
+/* ====================== banner part start =============================== */
+
+.banner_part {
+    padding: 0 10%;
+}
+
+.banner_text {
+    width: 50%;
+    float: left;
+    padding-top: 100px;
+}
+
+.banner_img {
+    width: 30%;
+    float: left;
+}
+
+.banner_img img {
+    width: 100%;
+}
+
+.banner_text h1 {
+    font-size: 50px;
+    color: #3B3E5C;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 0;
+}
+
+.banner_text h1 span {
+    display: block;
+    color: #FF8367;
+    margin-top: -18px;
+}
+
+.banner_text p {
+    font-size: 14px;
+    color: #3B3E5C;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding: 0 0 25px;
+}
+
+.banner_text a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    background: #FF8367;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 11px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
 
 
-/* ====================== menu part end =============================== */
+/* ====================== banner part end =============================== */
 
 
 /* ====================== menu part start =============================== */
