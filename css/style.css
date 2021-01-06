@@ -82,12 +82,13 @@
     text-decoration: none;
     font-size: 16px;
     color: #fff;
-    background: #08D665;
+    background: linear-gradient(360deg, #1ed671, #02c85b, #08D665, rgba(8, 204, 8, 0.829));
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     padding: 11px 25px;
     display: inline-block;
     border-radius: 5px;
+    box-shadow: 0 2px 3px gray;
 }
 
 
